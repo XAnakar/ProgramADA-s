@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Fale conosco - Programadas</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cont.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<script src="JavaScript/funcoes.js"></script>
+	</head>
+	
+	
+	<body>
+		<header>				
+		
+			<nav id="menu">
+						
+					<ul>
+							
+							<li><a href="index.html">Home</a></li>
+							<li><a href="inspira.html">Inspiração</a></li>						
+							<li><a href="cursos.html">Cursos</a></li>						
+							<li><a href="mercado.html">Mercado de trabalho</a></li> 						
+							<li><a href="fotos.html">Galeria</a></li>							
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="contatos.html">Fale conosco</a></li>
+							
+					</ul>
+			</nav>
+		</header>
+			<figure class="foto-legenda">
+					<img alt ="im12" src="imagens/principal7.jpg">
+					<figcaption>
+						<h2>Fale conosco</h2>						
+					</figcaption>
+			</figure>
+			
+		<div id="interface">		
+			<section id="corpo">
+			<h2>Contate-nos</h2>
+				<article id="noticia-principal">			
+					
+					<figure class="center1">						
+						<figcaption>						
+							<p> Localização: Universidade Federal do Piauí - UFPI</p>	
+							<p>Endereço: Rua Cícero Eduardo, S/N</p>
+							<p>Bairro: Junco</p>
+							<p>Cidade: Picos - PI</p>
+							<p>Telefone: (89)988211193</p>
+							<p>Email: carolinestylo@hotmail.com</p>
+							
+							<p>CEP: 64600-000</p>
+						</figcaption>
+					</figure>	
+						<h2>Mapa</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.0690136863561!2d-41.43594236935569!3d-7.082047844379275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79c1a843b8a035d%3A0x362c9952b4717405!2sUfpi!5e0!3m2!1spt-BR!2sbr!4v1485025587195" width="1150" height="500" style="border:0" allowfullscreen></iframe>
+						
+						<h2>Fale conosco</h2>
+						<form name="form1" action="mensagemEnviada.html#mapa" method="post">
+							<p class="form"><input type="text" name="tNome" id="cNome" size="80" maxlength="30" placeholder="Nome Completo*"/></p>
+							<p class="form"><input type="email" name="tEmail" id="cMail" size="80" maxlength="40" placeholder="E-mail*"/></p>
+							<p class="form"><input type="text" name="tAssunto" id="cAssunto" size="80" maxlength="50" placeholder="Assunto"/></p>
+							<p class="form"><label for="cMsg"></label>					
+							<p class="form"><textarea name="tMsg" id="cMsg" cols="78" rows="10" placeholder="Escreva sua mensagem*"></textarea></p>				
+							<button type="submit" name="bEnviar" id="cEnviar" value="Enviar"  onclick="return validar()">ENVIAR</button>
+						</form>	
+				</article>	 
+			
+				<footer id="rodape">	
+					<p>Copyright 2016<br/>
+					<a href="http://facebook.com/" target="_blank">Facebook</a> | 
+					<a href="http://twitter.com/" target="_blank">Twitter</a></p>
+				</footer>			
+			</section>
+		</div>	
+	</body>
+</html>
