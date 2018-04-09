@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+cont{
+	width: 500px;
+	margin: auto;
+}
+
+
+article#noticia-principal input{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;	
+	border: 1px solid  #D3D3D3;	
+	height: 50px;
+	border-radius: 5%;
+	box-shadow: 0px 0px 4px rgba(0,0,0,.1);
+	margin-left: 250px;
+	margin-top: 25px;	
+}
+
+
+article#noticia-principal input:hover {
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+article#noticia-principal textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;	
+	border: 1px solid  #D3D3D3;
+	height: 200px;
+	border-radius: 4%;
+	box-shadow: 0px 0px 4px rgba(0,0,0,.1);
+	margin-left: 250px;
+	
+}
+
+article#noticia-principal textarea:hover{
+	box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+	
+}
+
+legend{
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+	
+}
+
+section#corpo figure.center1 {
+	display: block;
+	padding: 40px 230px;
+	width: 660px;
+	
+	box-shadow:0px 0px 8px rgba(0,0,0,.2);
+	margin-top: 50px;
+	margin-left: 15px;
+	
+}
+
+/*FORMATAÇÃO DO BOTAO ENVIAR*/
+button{
+	
+	border: #389EFF;
+	background-color:  #389EFF;
+	color: #FFFFFF;
+	padding: 20px 80px;
+	font-size: 14pt;
+	list-style: none;
+	box-shadow: 0px 0px 2px rgba(0,0,0,.1);
+	border-radius: 4%;
+	cursor: pointer;
+	margin-top: 40px;
+	margin-left: 470px;
+
+}
+button:hover{
+	box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+	background-color: #2E94FF;	
+	
+}
+
+
